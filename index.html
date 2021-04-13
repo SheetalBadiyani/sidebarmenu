@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>::::  SIENNA SYSTEMS PVT. LTD.  ::::</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css"">
+    <link href=" https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+<!--- topbar start  -->
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+
+        <div class="col-xs-11"> <a class="navbar-brand" href="#">Sienna Systems Pvt. Ltd.</a></div>
+        <div class="col-xs-1">
+                <div class="dropdown pull-right userClass">
+                        <button type="button btn-sm" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-user"></i>
+                        </button>
+                        <div class="dropdown-menu ">
+                          <a class="dropdown-item" href="#">Link 1</a>
+                          <a class="dropdown-item" href="#">Link 2</a>
+                          <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                      </div>
+        </div>
+  
+</div>
+ </nav>
+
+
+    
+
+    
+<!--- end topbar  --->
+
+
+<!--<div class="page-wrapper chiller-theme toggled">-->
+    <div class="page-wrapper chiller-theme">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#">Sienna Systems Pvt. Ltd.</a>
+                    <div id="close-sidebar">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+
+
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="header-menu">
+                            <span>Heading 1</span>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-tachometer-alt"></i>
+                                <span>Offers Pending for Approval</span>
+
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Dashboard 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dashboard 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dashboard 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Approved Offers</span>
+                                <!--<span class="badge badge-pill badge-danger">3</span>-->
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Orders</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Credit cart</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sidebar-dropdown">
+                            <a href="#">
+                                <i class="far fa-gem"></i>
+                                <span>Rejected Offers</span>
+                            </a>
+                            <div class="sidebar-submenu">
+                                <ul>
+                                    <li>
+                                        <a href="#">General</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Panels</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tables</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Icons</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Forms</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="header-menu">
+                            <span>Heading 2</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-book"></i>
+                                <span>Lorem ipsum dolor sit amet</span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-calendar"></i>
+                                <span>consectetur adipisicing elit.</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-folder"></i>
+                                <span>Illo ipsam, totam minus</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+            <div class="sidebar-footer">
+                <a href="#">
+                    <i class="fa fa-bell"></i>
+                    <span class="badge badge-pill badge-warning notification">3</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-envelope"></i>
+                    <span class="badge badge-pill badge-success notification">7</span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-cog"></i>
+                    <span class="badge-sonar"></span>
+                </a>
+                <a href="#">
+                    <i class="fa fa-power-off"></i>
+                </a>
+            </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container-fluid">
+
+            <!--  table start  -->
+                <div class="row">
+                    <h5 style="color:#0b8484">Offers Pending for Approval</h5>
+                </div>
+                <div class="row">
+                    <div class="col-12 px-0">
+                            <div class="active-pink-3 active-pink-4 mb-4 searchTable">
+                                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                                  </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="thead-light text-center">
+                                <tr>
+                                    <th>Select</th>
+                                    <th>Offer ID</th>
+                                    <th>Offer Logo Name</th>
+                                    <th>Offer Name</th>
+                                    <th>Mode</th>
+                                    <th>Category</th>
+                                    <th>Offer Details</th>
+                                    <th>Promo Code</th>
+                                    <th>Program Name</th>
+                                    <th>Terms & Conditions</th>
+                                    <th>Start Date</th>
+                                    <th>Expiry Date</th>
+                                    <th>Example</th>
+                                    <th>Example</th>
+                                    <th>Example</th>
+                                    <th>Example</th>
+                                    <th>Example</th>
+                                    <th>Example</th>
+                                    <th>Example</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" class="checkthis" /></td>
+                                    <td class="text-center">1</td>
+                                    <td>Amazon</td>
+                                    <td>Amazon Automatives</td>
+                                    <td>Online</td>
+                                    <td>Shopping</td>
+                                    <td>Extra Discount on Electronics Product</td>
+                                    <td>No</td>
+                                    <td>Slonkit</td>
+                                    <td>
+                                        <ul style="padding-left:12px;">
+                                            <li>Extra Discount on Select Product</li>
+                                            <li>Valid only on products available on landing page.</li>
+                                            <li>Merchant reserves the right to change the price.</li>
+                                            <li>Offer valid until stock lasts.</li>
+                                            <li>Just click on the link <a href="#" target="_blank">https://short.kilppd.in/lzxb</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>09/07/2018</td>
+                                    <td>10/08/2018</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td class="text-center"><p data-placement="top" data-toggle="tooltip" title="Delete">
+                                            <button type="button" class="btn btn-link deleteIcon " data-toggle="modal" data-target="#delete">
+                                                <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                <td class="text-center"><p data-placement="top" data-toggle="tooltip" title="Edit">
+                                            <button type="button" class="btn btn-link editIcon" data-toggle="modal" data-target="#edit">
+                                                <i class="fa fa-edit"></i>
+                                        </button>
+                                    </p>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" class="checkthis" /></td>
+                                    <td class="text-center">1</td>
+                                    <td>Amazon</td>
+                                    <td>Amazon Automatives</td>
+                                    <td>Online</td>
+                                    <td>Shopping</td>
+                                    <td>Extra Discount on Electronics Product</td>
+                                    <td>No</td>
+                                    <td>Slonkit</td>
+                                    <td>
+                                        <ul style="padding-left:12px;">
+                                            <li>Extra Discount on Select Product</li>
+                                            <li>Valid only on products available on landing page.</li>
+                                            <li>Merchant reserves the right to change the price.</li>
+                                            <li>Offer valid until stock lasts.</li>
+                                            <li>Just click on the link <a href="#" target="_blank">https://short.kilppd.in/lzxb</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>09/07/2018</td>
+                                    <td>10/08/2018</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                    <td>Yes</td>
+                                </tr>
+
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 px-0">
+                        <ul class="pagination float-md-right pg-teal"> 
+                                <li class="page-item"> 
+                                    <a class="page-link" href="#">Previous</a> 
+                                </li> 
+                                <li class="page-item active"> 
+                                    <a class="page-link" href="#">1</a> 
+                                </li> 
+                                <li class="page-item"> 
+                                    <a class="page-link" href="#">2</a> 
+                                </li> 
+                                <li class="page-item"> 
+                                    <a class="page-link" href="#">3</a> 
+                                </li> 
+                                <li class="page-item"> 
+                                    <a class="page-link" href="#">Next</a> 
+                                </li> 
+                            </ul>
+                </div>
+        </div>
+    </div>
+
+    </main>
+    <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+
+
+    
+        </div>
+
+
+
+
+
+<!-- The Modal edit button -->
+<div class="modal fade" id="edit">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Heading</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+             content here
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+<!-- end modal edit-->
+
+
+
+<!-- The Modal delet button -->
+<div class="modal fade" id="delete">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Heading</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+             content here
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+<!-- The Modal delet button -->
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        jQuery(function ($) {
+
+            $(".sidebar-dropdown > a").click(function () {
+                $(".sidebar-submenu").slideUp(200);
+                if (
+                    $(this)
+                        .parent()
+                        .hasClass("active")
+                ) {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .parent()
+                        .removeClass("active");
+                } else {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this)
+                        .next(".sidebar-submenu")
+                        .slideDown(200);
+                    $(this)
+                        .parent()
+                        .addClass("active");
+                }
+            });
+
+            $("#close-sidebar").click(function () {
+                $(".page-wrapper").removeClass("toggled");
+            });
+            $("#show-sidebar").click(function () {
+                $(".page-wrapper").addClass("toggled");
+            });
+
+
+
+
+        });
+    </script>
+
+
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
